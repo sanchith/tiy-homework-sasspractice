@@ -1,0 +1,76 @@
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.15;
+  color: #3c4242; }
+
+header {
+  background-color: #94b4b3;
+  overflow: hidden;
+  height: 150px; }
+
+ul {
+  float: left;
+  margin-left: 100px;
+  margin-bottom: 0; }
+  ul li {
+    display: inline; }
+    ul li img {
+      padding: 20px 0; }
+    ul li a {
+      text-decoration: none;
+      color: #3c4242;
+      font-size: 15px;
+      margin: 40px;
+      position: relative;
+      bottom: 65px; }
+    ul li a:hover {
+      color: #d3795f;
+      border-bottom: 1px solid #3c4242;
+      padding-bottom: 15px; }
+
+button {
+  text-transform: uppercase;
+  background-color: inherit;
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 20px; }
+
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=0404a6987743c9f447f3abde5e2a34d8");
+  height: 500px;
+  background-size: cover; }
+  .hero .hero-text {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+    .hero .hero-text h1 {
+      font-size: 60px;
+      font-weight: normal; }
+    .hero .hero-text h3 {
+      font-size: 20px;
+      font-weight: normal; }
+    .hero .hero-text button:hover {
+      background: #d3795f;
+      border-color: #d3795f; }
+
+.banner {
+  background-color: #d3795f;
+  height: 200px; }
+  .banner .banner-text {
+    text-transform: uppercase;
+    text-align: center; }
+    .banner .banner-text h3 {
+      font-size: 25px;
+      font-weight: normal;
+      margin: 0 200px;
+      padding-top: 30px; }
+    .banner .banner-text button:hover {
+      background: #3c4242;
+      border-color: #3c4242; }
+
+/*# sourceMappingURL=style.css.map */
